@@ -1,0 +1,10 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "compileDebugProgram_TASK",
+            "type": "shell",
+            "command": "clang -o ${env:DEBUG_PROGRAM_PATH} ${env:DEVCONTAINER_DIRECTORY_PATH}/debug-source/main.c",
+        }
+    ]
+}

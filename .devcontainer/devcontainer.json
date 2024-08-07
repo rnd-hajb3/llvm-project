@@ -1,0 +1,14 @@
+{
+    "build": {
+        "dockerfile": "Dockerfile",
+        "context": ".."
+    },
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "ms-vscode.cpptools",
+                "llvm-vs-code-extensions.lldb-dap"
+            ]
+        }
+    }
+}
